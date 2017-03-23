@@ -2,17 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link href="reg.css" rel="stylesheet" type="text/css">
         <title>註冊表單</title>
     </head>
     <body>
+        <div class="container">
+        
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="post">
+            <h1>報名表單</h1>
             <div>
-                <label for="name">姓名:</label>
-                <input type="text" id="name" name="entry.1339495092" required>
+                <label for="name"></label>
+                <input type="text" id="name" name="entry.1339495092" placeholder="姓名" required>
             </div>
             <div>
-                <select required name="entry.1944781450">
-                    <option value="" disabled selected>Select your option</option>
+                <label for="department"></label>
+                <select id="department" required name="entry.1944781450">
+                    <option value="" disabled selected>學院</option>
                     <option value="商學院">商學院</option>
                     <option value="文學院">文學院</option>
                     <option value="傳播學院">傳播學院</option>
@@ -25,21 +30,22 @@
                 </select>
             </div>
         <div>
-            <label for="tel">電話:</label>
-            <input id="tel" name="entry.795504394" type="tel" pattern="^\d{10}$" required >
+            <label for="tel"></label>
+            <input id="tel" name="entry.795504394" type="tel" pattern="^\d{10}$" placeholder="電話" required >
         </div>
             <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="entry.560282373" required>
+                <label for="mail"></label>
+                <input type="email" id="mail" name="entry.560282373" placeholder="E-mail" required>
             </div>
             <div>
-                <label for="bday">生日:</label>
-                <input type="date" id="bday" name="entry.324774019">
+                <label for="bday"></label>
+                <input type="date" id="bday" name="entry.324774019" placeholder="生日">
             </div>
             <div>
                 <input id="studentid" name="entry.189820201" type="number" hidden value="103305083">
             </div>
             <input type="submit" value="註冊">
         </form>
+        </div>
     </body>
 </html>
