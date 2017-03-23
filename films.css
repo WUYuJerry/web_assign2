@@ -1,0 +1,105 @@
+.container {
+    margin: 5%;
+    font-family: PMingLiU;
+}
+
+p {
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+a :visited {
+    color: lightseagreen
+}
+
+a :hover {
+    color: green;
+}
+
+header {
+    float: left;
+    width: 100%;
+}
+
+header #movie_list {
+    float: right;
+}
+
+.main_article {
+    float: left;
+    max-width: 50%;
+    /*border: 5%;*/
+}
+
+.main_article>img {
+    max-width: 100%;
+}
+
+aside {
+    margin-left: 50%;
+    padding: 2%;
+}
+
+aside>div {
+    width: 47%;
+    display: inline-block;
+}
+
+aside>div>a> {
+    display: inline-block;
+}
+
+aside>div>a>.cover {
+    width: 100%;
+}
+
+aside>div>a>.cover:hover {
+    opacity: 0.7;
+}
+
+aside>div>a>.seal {
+    float: left;
+    width: 30%;
+}
+
+aside>div>a>p {
+    margin-left: 30%;
+    width: 70%;
+}
+
+aside>div>article {
+    display: inline-block;
+    width: 100%;
+}
+
+aside>div>article>strong {
+    font-size: 20px;
+    color: blue;
+}
+
+.information {
+    float: left;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+footer>#nccu_information{
+    float: left;
+    max-width: 50%;
+}
+
+footer>#nccu_information>img{
+    float: left;
+}
+
+footer>nav{
+    margin-left: 50%;
+}
+
+.information{
+    display: none;
+}
